@@ -1,0 +1,60 @@
+/*** CUSTOM PROPETIES ***/
+
+/* COLORS */
+
+:root {
+  /* colors */
+  --clr-light-blue: #cac9ff;
+  --clr-white: #fff;
+  --clr-dark-navy: #303b59;
+  --clr-red: #ff5555;
+  --clr-yellow: #ffb21e;
+  --clr-green: #00bb8f;
+  --clr-blue: #1125d6;
+
+  /* gradients */
+  --grads-blue: linear-gradient(
+    180deg,
+    #7755ff 0%,
+    #6943ff 0.01%,
+    #2f2ce9 100%
+  );
+  --grad-red: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  --grad-yellow: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+  --grad-green: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+  --grad-light-blue: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+
+  /* typography */
+  --ff-hanken: "Hanken Grotesk", sans-serif;
+
+  --fw-reg: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+
+  --fs-body-mobile: 1rem;
+  --fs-body: 1.125rem;
+  --fs-h1: 2rem;
+  --fs-h1-mobile: 1.5rem;
+  --fs-h2: 1.5rem;
+  --fs-h2-mobile: 1.125rem;
+}
