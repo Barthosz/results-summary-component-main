@@ -19,6 +19,13 @@
     #6943ff 0.01%,
     #2f2ce9 100%
   );
+
+  --grads-blue-reverse: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
   --grad-red: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.95),
@@ -57,4 +64,76 @@
   --fs-h1-mobile: 1.5rem;
   --fs-h2: 1.5rem;
   --fs-h2-mobile: 1.125rem;
+  --fs-big: 3.5rem;
+  --fs-bigger: 4.5rem;
+}
+
+/* *GENERAL* */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 375px;
+}
+
+.summary__component {
+  font-family: var(--ff-hanken);
+}
+
+/* Result section */
+.result {
+  background: var(--grads-blue);
+  text-align: center;
+  border-radius: 0px 0px 32px 32px;
+}
+
+.result__title {
+  color: var(--clr-light-blue);
+  padding: 1.5em 0;
+  font-size: var(--fs-body);
+}
+
+.result__score {
+  width: 140px;
+  height: 140px;
+  border-radius: 140px;
+  margin: 0 auto;
+  background: var(--grads-blue-reverse);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.result__pointsScored {
+  color: var(--clr-white);
+  font-size: var(--fs-big);
+  font-weight: var(--fw-extra-bold);
+}
+
+.result__totalPoints {
+  color: var(--clr-light-blue);
+  font-size: var(--fs-body-mobile);
+  opacity: 0.5;
+}
+
+.result__textScore {
+  color: var(--clr-white);
+  font-size: var(--fs-h1-mobile);
+  padding-bottom: 0.5em;
+}
+
+.result__body {
+  color: var(--clr-light-blue);
+  font-size: var(--fs-body-mobile);
+  line-height: 1.5;
+  width: 260px;
+  margin: 0 auto;
+  padding-bottom: 2.5em;
 }
