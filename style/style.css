@@ -85,6 +85,42 @@
   font-family: var(--ff-hanken);
 }
 
+/* Utillity classes */
+.opacity {
+  opacity: 0.5;
+}
+
+.color--red {
+  color: var(--clr-red);
+}
+
+.background--red {
+  background: var(--grad-red);
+}
+
+.color--yellow {
+  color: var(--clr-yellow);
+}
+
+.background--yellow {
+  background: var(--grad-yellow);
+}
+
+.color--green {
+  color: var(--clr-green);
+}
+
+.background--green {
+  background: var(--grad-green);
+}
+
+.color--blue {
+  color: var(--clr-blue);
+}
+
+.background--blue {
+  background: var(--grad-light-blue);
+}
 /* Result section */
 .result {
   background: var(--grads-blue);
@@ -136,4 +172,42 @@
   width: 260px;
   margin: 0 auto;
   padding-bottom: 2.5em;
+}
+
+/* summary section */
+
+.summary {
+  padding: 1.5em 1.875em 1.875em 1.875em;
+}
+
+.summary__title {
+  padding-bottom: 1.5em;
+  color: var(--clr-dark-navy);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h2-mobile);
+}
+
+.summary__list li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.summary__item {
+  display: flex;
+  font-size: var(--fs-body-mobile);
+  padding: 1.125em 1em;
+  border-radius: 12px;
+}
+
+.summary__icon {
+  padding-right: 0.75em;
+}
+
+.summary__skillName {
+  flex: 1;
+}
+
+.summary__score {
+  color: var(--clr-dark-navy);
+  font-size: var(--fs-body-mobile);
+  font-weight: var(--fw-bold);
 }
